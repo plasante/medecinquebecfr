@@ -1,4 +1,6 @@
 Medecinquebecfr::Application.routes.draw do
+  match '/contact', :to => "menus#contact"
+  match '/about',   :to => "menus#about"
   
   root :to => "menus#home"
   
