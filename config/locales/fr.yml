@@ -2,3 +2,6 @@ fr:
   title: "Acceuil"
   h1_header: "Entête"
   h3_footer: "Pied"
+  root_path: "Acceuil"
+  contact_path: "Contactez-nous"
+  about_path: "A propos"
