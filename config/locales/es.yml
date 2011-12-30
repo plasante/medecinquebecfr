@@ -1,4 +1,20 @@
 es:
-  title: "Home"
-  h1_header: "Header"
-  h3_footer: "Nota"
+  menus_home_title: "Home"
+  menus_home_header: "Home"
+  menus_home_footer: "Foota"
+  
+  menus_contact_title: "Contactenos"
+  menus_contact_header: "Contactenos"
+  menus_contact_footer: "Foota"
+  
+  menus_about_title: "A proposa"
+  menus_about_header: "A proposa"
+  menus_about_footer: "Foota"
+  
+  root_path: "Home"
+  contact_path: "Contactenos"
+  about_path: "A proposa"
+  
+  sign_in: "Connexion"
+  sign_out: "Quitta"
+  sign_up: "Inscripcion"

@@ -1,4 +1,20 @@
 en:
-  title: "Home"
-  h1_header: "Header"
-  h3_footer: "Footer"
+  menus_home_title: "Home"
+  menus_home_header: "Home"
+  menus_home_footer: "Footer"
+  
+  menus_contact_title: "Contact us"
+  menus_contact_header: "Contact us"
+  menus_contact_footer: "Footer"
+  
+  menus_about_title: "About"
+  menus_about_header: "About"
+  menus_about_footer: "Footer"
+  
+  root_path: "Home"
+  contact_path: "Contact us"
+  about_path: "About"
+  
+  sign_in: "Sign in"
+  sign_out: "Sign out"
+  sign_up: "Sign up"

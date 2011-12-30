@@ -1,7 +1,20 @@
 fr:
-  title: "Acceuil"
-  h1_header: "Entête"
-  h3_footer: "Pied"
+  menus_home_title: "Acceuil"
+  menus_home_header: "Accueil"
+  menus_home_footer: "Pied"
+  
+  menus_contact_title: "Contactez nous"
+  menus_contact_header: "Contactez nous"
+  menus_contact_footer: "Pied"
+  
+  menus_about_title: "A Propos"
+  menus_about_header: "About"
+  menus_about_footer: "Pied"
+  
   root_path: "Acceuil"
-  contact_path: "Contactez-nous"
-  about_path: "A propos"
+  contact_path: "Contactez nous"
+  about_path: "A Propos"
+  
+  sign_in: "Connexion"
+  sign_out: "Quitter"
+  sign_up: "Inscription"

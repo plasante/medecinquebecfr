@@ -11,11 +11,14 @@
 <body>
 	<div data-role="page">
 		<div data-role="header">
-			<h1><%=t :h1_header %></h1>
+			<h1><%= header %></h1>
+			<% if controller.action_name != 'home' %>
+				<%= link_to t(:root_path), root_path, "class" => "ui-btn-right" %>
+			<% end %>
 		</div>
 		    <%= yield %>
 		<div data-role="footer">
-			<h3><%=t :h3_footer%></h3>
+			<h3><%= footer %></h3>
 		</div>
 	</div>
 </body>
