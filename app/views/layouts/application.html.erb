@@ -13,10 +13,10 @@
 		<div data-role="header">
 			<h1><%= header %></h1>
 			<% if controller.action_name != 'home' %>
-				<%= link_to t(:root_path), root_path, "class" => "ui-btn-right" %>
+				<%= link_to t(:root_path), root_path, "class" => "ui-btn-left" %>
 			<% end %>
 		</div>
-		    <%= yield %>
+		<%= yield %>
 		<div data-role="footer">
 			<h3><%= footer %></h3>
 		</div>

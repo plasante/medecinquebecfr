@@ -1,0 +1,6 @@
+<div data-role="header">
+	<h1><%= header %></h1>
+	<% if controller.action_name != 'home' %>
+		<%= link_to t(:root_path), root_path, "class" => "ui-btn-left" %>
+	<% end %>
+</div>
