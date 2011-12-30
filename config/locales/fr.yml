@@ -11,6 +11,10 @@ fr:
   menus_about_header: "About"
   menus_about_footer: "Pied"
   
+  users_new_title: "Inscription"
+  users_new_header: "Inscription"
+  users_new_footer: ""
+  
   root_path: "Acceuil"
   contact_path: "Contactez nous"
   about_path: "A Propos"

@@ -11,4 +11,8 @@ describe "LayoutLinks" do
     get '/contact', nil, { 'HTTP_ACCEPT_LANGUAGE' => 'fr' }
     response.should have_selector("title", :content => %(Contact))
   end
+  
+  it "should have a signup page at '/signup'" do
+    get '/signup', nil, { 'HTTP_ACCEPT_LANGUAGE' => 'fr' }
+  end
 end
