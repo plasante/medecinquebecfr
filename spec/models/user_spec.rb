@@ -76,4 +76,15 @@ describe User do
     user_with_duplicate_email = User.new(@attr)
     user_with_duplicate_email.should_not be_valid
   end
+  
+  it "should not permit more than 100 users in the database" do
+    user_str = "user_"
+    email_str = "@email.com"
+    100.times do |n|
+      User.create!(:first_name => 'FirstName', :last_name => 'LastName', :email => user_str + n.to_s + email_str)
+    end
+    lambda do 
+      User.create!(:first_name => 'FirstName', :last_name => 'LastName', :email => user_str + 'max' + email_str)
+    end.should raise_error("Maximum number of users reached!")
+  end
 end

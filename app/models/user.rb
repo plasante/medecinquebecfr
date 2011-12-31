@@ -11,6 +11,8 @@
 #
 
 class User < ActiveRecord::Base
+  before_save :check_maximum
+  
   attr_accessible :first_name, :last_name, :email
   
   validates :first_name, :presence   => true,
@@ -22,4 +24,12 @@ class User < ActiveRecord::Base
   validates :email,      :presence   => true,
                          :format     => { :with => /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i },
                          :uniqueness => { :case_sensitive => false }
+
+private
+  
+  def check_maximum
+    if User.count >= USERS_MAX
+      raise "Maximum number of users reached!"
+    end
+  end
 end

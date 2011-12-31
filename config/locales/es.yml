@@ -10,6 +10,10 @@ es:
   menus_about_title: "A proposa"
   menus_about_header: "A proposa"
   menus_about_footer: "Foota"
+
+  users_new_title: "Inscriptiona"
+  users_new_header: "Inscriptiona"
+  users_new_footer: "Inscriptiona"
   
   root_path: "Home"
   contact_path: "Contactenos"

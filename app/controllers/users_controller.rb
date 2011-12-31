@@ -1,17 +1,9 @@
 class UsersController < ApplicationController
   def new
-    set_title_header_footer
+    
   end
   
   def show
     @user = User.find_by_id(params[:id])
-  end
-
-private
-
-  def set_title_header_footer
-    @title = t(:users_new_title)
-    @header = t(:users_new_header)
-    @footer = t(:users_new_footer)
   end
 end
