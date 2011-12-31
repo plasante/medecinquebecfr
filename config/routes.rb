@@ -1,5 +1,6 @@
 Medecinquebecfr::Application.routes.draw do
-
+  resources :users
+  
   match '/contact', :to => "menus#contact"
   match '/about',   :to => "menus#about"
   match '/signup',  :to => "users#new"

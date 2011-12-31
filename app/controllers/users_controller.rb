@@ -2,6 +2,10 @@ class UsersController < ApplicationController
   def new
     set_title_header_footer
   end
+  
+  def show
+    @user = User.find_by_id(params[:id])
+  end
 
 private
 
