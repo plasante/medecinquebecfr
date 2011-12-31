@@ -11,6 +11,10 @@ en:
   menus_about_header: "About"
   menus_about_footer: "Footer"
   
+  users_new_title: "Sign up"
+  users_new_header: "Sign up"
+  users_new_footer: "Sign up"
+  
   root_path: "Home"
   contact_path: "Contact us"
   about_path: "About"
