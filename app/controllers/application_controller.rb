@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   before_filter :set_locale
-  before_filter :set_title_header_footer
+  #before_filter :set_title_header_footer
   
   protect_from_forgery
   

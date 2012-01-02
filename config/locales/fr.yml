@@ -15,6 +15,10 @@ fr:
   users_new_header: "Inscription"
   users_new_footer: "Inscription"
   
+  users_show_title: "Usager"
+  users_show_header: "Usager"
+  users_show_footer: "Usager"
+  
   root_path: "Acceuil"
   contact_path: "Contactez nous"
   about_path: "A Propos"
